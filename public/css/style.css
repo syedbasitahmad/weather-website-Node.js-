@@ -7,14 +7,22 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: green;
+    background-image: url("../img/download.jpg");
+    
+   
+  }
+    
+   
 }
 
 .main-content {
     flex-grow: 1;
+    background-image: url("weather.png");
 }
 
 footer {
-    color: #888888;
+    color:maroon;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -23,15 +31,19 @@ footer {
 header {
     margin-top: 16px;
     margin-bottom: 48px;
+    color:maroon
 }
 
 h1 {
     font-size: 50px;
+    
+
     margin-bottom: 16px;
+   
 }
 
 header a {
-    color: #888888;
+    color: maroon;
     margin-right: 16px;
     text-decoration: none
 }

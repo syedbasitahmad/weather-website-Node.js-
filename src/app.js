@@ -23,7 +23,7 @@ hbs.registerPartials(partialpath)
 app.use(express.static(publicDirectoryPath))
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Aur Mausam Kaisa Hai ?',
+        title: 'मौसम का हाल',
         name: 'Basit'
     })
 })
@@ -38,7 +38,7 @@ app.get('/help', (req, res) => {
         res.render('help', {
             title: 'Help',
             name: 'Basit',
-            helptext: 'This is some helpful text.'
+            helptext: "Contact basitahmad4@gmail.com for any query."
         })
     })
     // app.get('',(req,res)=>{
